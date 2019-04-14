@@ -7,7 +7,7 @@ int main()
   {
     for(i=n+1;i<q;i++)
     {
-      if(i%2)
+      if(i % 2)
       {
         printf("%d\t",i);
       }
