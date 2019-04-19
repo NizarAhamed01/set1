@@ -29,8 +29,8 @@ int main()
      {
       median=(n+1)/2-1;
      }
-     printf("%d",arr[median]);
-     
+    }
+     printf("%d",arr[median]); 
    }
   return 0;
 }
