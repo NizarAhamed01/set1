@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int n,i,total=0,average;
+  int n,i,total=0,avg;
   scanf("%d",&n);
   int arr[n];
   for(i=0;i<n;i++)
@@ -12,7 +12,7 @@ int main()
   {
     total=total+arr[i];
   }
-  average=total/n;
-  printf("%d",average);
+  avg=total/n;
+  printf("%d",avg);
   return 0;
 }
