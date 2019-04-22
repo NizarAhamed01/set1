@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int num1,num2,diff;
-  scanf("%d %d",&num1,&num2);
-  diff=num1-num2;
+  int n1,n2,diff;
+  scanf("%d %d",&n1,&n2);
+  diff=n1-n2;
   if(diff % 2 == 0)
   {
     printf("even");
