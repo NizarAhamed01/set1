@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-  int arr[10],i,min;
+  int a[10],i,min;
   for(i=0;i<10;i++)
   {
-    scanf("%d",&arr[i]);
+    scanf("%d",&a[i]);
   }
-  min=arr[0];
+  min=a[0];
   for(i=0;i<10;i++)
   {
-    if(arr[i] < min)
+    if(a[i] < min)
     {
-      min=arr[i];
+      min=a[i];
     }
   }
   printf("%d",min);
