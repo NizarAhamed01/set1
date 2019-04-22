@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  int n,m,add;
+  int n,m,total;
   scanf("%d %d",&n,&m);
-  add=n+m;
-  if(add % 2 == 0)
+  total=n+m;
+  if(total % 2 == 0)
   {
     printf("Even");
   }
