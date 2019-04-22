@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(void)
 {
-  char s[20];
-  scanf("%[^\n]s",s);
-  if(printf("%d",s))
+  char str[20];
+  scanf("%[^\n]s",str);
+  if(printf("%d",str))
   {
     return 0;
   }
