@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-  int input1,input2,ans;
+  int num1,num22,ans;
   char op;
-  scanf("%d %c %d",&input1,&op,&input2);
+  scanf("%d %c %d",&num1,&op,&num2);
   if(op == '/')
   {
-    ans=input1/input2;
+    ans=num1/num2;
   }
   else if(op == '%')
   {
-    ans=input1%input2;
+    ans=num1%num2;
   }
   printf("%d",ans);
   return 0;
