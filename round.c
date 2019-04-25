@@ -3,9 +3,9 @@
 int main()
 {
   float input;
-  int Num;
+  int Number;
   scanf("%f",&input);
-  Num=round(input);
-  printf("%d",Num);
+  Number=round(input);
+  printf("%d",Number);
   return 0;
 }
