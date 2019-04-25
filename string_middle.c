@@ -2,19 +2,19 @@
 int main()
 {
   char str[20],len,n;
-  scanf("%s",&str);
-  len=strlen(str);
+  scanf("%s",&strng);
+  len=strlen(strng);
   n=len/2;
   len=len-1;
   if(len % 2)
   {
-    str[n]='*';
-    str[n+1]='*';
+    strng[n]='*';
+    strng[n+1]='*';
   }
   else
   {
-    str[n]='*';
+    strng[n]='*';
   }
-  printf("%s",str);
+  printf("%s",strng);
   return 0;
 }
