@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-  int input,i,count = 0;
+  int input,index,count = 0;
   scanf("%d",&input);
-  for(i=2;i<input;i++)
+  for(index=2;index<input;index++)
   {
-    if(input % i == 0)
+    if(input % index == 0)
     {
       count = 1;
     }
