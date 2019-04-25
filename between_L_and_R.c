@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-  int N,L,R,i,count=0;
+  int N,L,R,index,count=0;
   scanf("%d",&N);
   scanf("%d %d",&L,&R);
-  for(i=L;i<R;i++)
+  for(index=L;index<R;index++)
   {
-    if(N == i)
+    if(N == index)
     {
       count =1;
     }
