@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-  int N,remainder;
+  int N,rem;
   scanf("%d",&N);
   if(N <= 100000)
   {
     while(N)
     {
-      remainder=N%10;
-      if(remainder % 2)
+      rem=N%10;
+      if(rem % 2)
       {
-        printf("%d\t",remainder);
+        printf("%d\t",rem);
       }
       N=N/10;
    }
