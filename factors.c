@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-  int N,i;
+  int N,index;
   scanf("%d",&N);
   if(N<=1000)
   {
-    for(i=1;i<=N;i++)
+    for(index=1;index<=N;index++)
     {
-      if(N % i == 0)
+      if(N % index == 0)
       {
-        printf("%d\t",i);
+        printf("%d\t",index);
       }
     }
   }
