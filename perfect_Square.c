@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-  int N,K,product,i,square,flag=0;
+  int N,K,product,index,square,flag=0;
   scanf("%d %d",&N,&K);
   product=N*K;
-  for(i=1;i<product;i++)
+  for(index=1;index<product;index++)
   {
-    square=i*i;
+    square=index*index;
     if(product == square)
     {
       flag=1;
