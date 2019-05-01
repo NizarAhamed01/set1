@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  int l,b,h,volume,surface;
-  scanf("%d %d %d",&l,&b,&h);
-  volume=l*b*h;
-  surface=(2*l*b)+(2*b*h)+(2*l*h);
+  int length,breadth,heigth,volume,surface;
+  scanf("%d %d %d",&length,&breadth,&height);
+  volume=length*breadth*heigth;
+  surface=(2*length*breadth)+(2*breadth*height)+(2*length*height);
   printf("%d %d",surface,volume);
   return 0;
 }
