@@ -1,19 +1,19 @@
 int main()
 {
-  int n,k,minimum,i;
+  int n,k,minimum,index;
   scanf("%d %d",&n,&k);
   int arr[n];
  
-    for(i=0;i<n;i++)
+    for(index=0;index<n;index++)
     {
-      scanf("%d",&arr[i]);
+      scanf("%d",&arr[index]);
     }
     minimum=arr[0];
-    for(i=0;i<n;i++)
+    for(index=0;index<n;index++)
     {
-      if(arr[i] < minimum)
+      if(arr[index] < minimum)
       {
-        minimum=arr[i];
+        minimum=arr[index];
       }
     }
     printf("%d",arr[k]);
