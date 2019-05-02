@@ -3,13 +3,13 @@
 int main()
 {
   char str[20];
-  int n,length,diff,i;
-  scanf("%s %d",&str,&n);
+  int num,length,diff,index;
+  scanf("%s %d",&str,&num);
   length=strlen(str);
-  diff=length-n;
-  for(i=diff;i<length;i++)
+  diff=length-num;
+  for(index=diff;index<length;index++)
   {
-    printf("%s",str[i]);
+    printf("%s",str[index]);
   }
   return 0;
   
