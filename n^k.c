@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 { 
-  int N,K,pow=1,i;
+  int N,K,power=1,index;
   scanf("%d %d",&N,&K);
-  for(i=0;i<3;i++)
+  for(index=0;index<3;index++)
   {
-    pow=pow*N;
+    power=power*N;
   }
-  printf("%d",pow);
+  printf("%d",power);
   return 0;
 }
