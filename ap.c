@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int A,B,C,Ap;
+  int A,B,C,Arithemetic_progession;
   scanf("%d %d %d",&A,&B,&C);
-  Ap=C/2*(2*A+(B-1)*C);
-  printf("%d",Ap);
+  Arithemetic_progession=C/2*(2*A+(B-1)*C);
+  printf("%d",Arithemetic_progession);
   return 0;
 }
