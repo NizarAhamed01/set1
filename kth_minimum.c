@@ -2,20 +2,20 @@ int main()
 {
   int n,k,minimum,index;
   scanf("%d %d",&n,&k);
-  int arr[n];
+  int array[n];
  
     for(index=0;index<n;index++)
     {
-      scanf("%d",&arr[index]);
+      scanf("%d",&array[index]);
     }
-    minimum=arr[0];
+    minimum=array[0];
     for(index=0;index<n;index++)
     {
       if(arr[index] < minimum)
       {
-        minimum=arr[index];
+        minimum=array[index];
       }
     }
-    printf("%d",arr[k]);
+    printf("%d",array[k]);
   return 0;
 }
