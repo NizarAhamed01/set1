@@ -1,2 +1,2 @@
-str=input()
-print(str.capitalize())
+s=input()
+print(s.capitalize())
