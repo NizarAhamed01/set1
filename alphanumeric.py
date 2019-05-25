@@ -1,5 +1,5 @@
-str=input()
-index = 0
-for index in str:
-  if(index.isdigit() == True):
-    print(index,end=' ')
+s=input()
+i = 0
+for i in s:
+  if(i.isdigit() == True):
+    print(i,end=' ')
