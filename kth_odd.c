@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  int n,k,i,j=1;
-  scanf("%d %d",&n,&k);
-  int a[n];
-  for(i=0;i<n;i++)
+  int num,k,i,j=1;
+  scanf("%d %d",&num,&k);
+  int a[num];
+  for(i=0;i<num;i++)
   {
     scanf("%d",&a[i]);
   }
-  for(i=0;i<n;i++)
+  for(i=0;i<num;i++)
   {
     if(a[i] % 2)
     {
