@@ -1,3 +1,3 @@
-c = int(input())
-k = c + 273
-print(k)
+celcius = int(input())
+kelvin = celcius + 273
+print(kelvin)
