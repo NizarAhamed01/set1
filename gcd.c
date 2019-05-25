@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-  int num1,num2,i,gcd;
-  scanf("%d %d",&num1,&num2);
-  for(i=1;i<num1 && i < num2;i++)
+  int n1,n2,i,gcd;
+  scanf("%d %d",&n1,&n2);
+  for(i=1;i<n1 && i < n2;i++)
   {
-    if(num1 % i == 0 ) && (num2 % i == 0))
+    if(n1 % i == 0 ) && (n2 % i == 0))
     {
       gcd = i;
     }
