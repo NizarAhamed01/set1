@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  int digit,remaining,product=1;
-  scanf("%d",&digit);
-  while(digit)
+  int d,rem,pro=1;
+  scanf("%d",&d);
+  while(d)
   {
-    remaining = digit % 10;
-    product = product * remaining;
-    digit = digit / 10;
+    rem = d % 10;
+    pro = pro * rem;
+    d = d / 10;
   }
-  printf("%d",product);
+  printf("%d",pro);
   return 0;
 }
